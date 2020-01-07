@@ -21,11 +21,23 @@ class Botui extends React.Component {
         update(index, message) {
             return this.botui.message.update(index, message);
         },
+        insert(index, message) {
+            return this.botui.message.insert(index, message);
+        },
         remove(index) {
             return this.botui.message.remove(index);
         },
         removeAll() {
             return this.botui.message.removeAll();
+        },
+        getMessageLengthCorrectPair() {
+            return this.botui.message.getMessageLengthCorrectPair();
+        },
+        enableIncorrectClick(callback) {
+            return this.botui.message.enableIncorrectClick(callback);
+        },
+        disableIncorrectClick() {
+            return this.botui.message.disableIncorrectClick();
         }
     };
 
@@ -63,6 +75,10 @@ class Botui extends React.Component {
         this.message.update = this.message.update.bind(this);
         this.message.remove = this.message.remove.bind(this);
         this.message.removeAll = this.message.removeAll.bind(this);
+        this.message.insert = this.message.insert.bind(this);
+        this.message.getMessageLengthCorrectPair = this.message.getMessageLengthCorrectPair.bind(this);
+        this.message.enableIncorrectClick = this.message.enableIncorrectClick.bind(this);
+        this.message.disableIncorrectClick = this.message.disableIncorrectClick.bind(this);
         this.action.hide = this.action.hide.bind(this);
         this.action.show = this.action.show.bind(this);
         this.action.text = this.action.text.bind(this);
