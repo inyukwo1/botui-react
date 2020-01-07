@@ -24,7 +24,6 @@ Link Vue.js and the BotUI script in your HTML file.
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/botui/build/botui.js"></script>
 ```
 
 Import the component into your project.

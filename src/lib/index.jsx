@@ -1,4 +1,5 @@
 import React from 'react';
+import 'botui/build/botui.js'
 import 'botui/build/botui.min.css';
 import 'botui/build/botui-theme-default.css';
 
