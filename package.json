@@ -30,6 +30,7 @@
     "@babel/preset-env": "^7.0.0-beta.46",
     "@babel/preset-react": "^7.0.0-beta.46",
     "babel-loader": "^8.0.0-beta.0",
+    "botui": "git+https://github.com/inyukwo1/botui.git",
     "concurrently": "^3.5.1",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
@@ -46,7 +47,5 @@
     "type": "git",
     "url": "git@github.com:gabrielcolson/botui-react"
   },
-  "dependencies": {
-    "botui": "^0.3.4"
-  }
+  "dependencies": {}
 }
